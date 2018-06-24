@@ -1,0 +1,43 @@
+<resources>
+    <!--App name-->
+    <string name="app_name">Assignment19.1</string>
+    <!--Coordinates text-->
+    <string name="coordinates">Coordinates</string>
+    <!--Latitude text-->
+    <string name="coordinates_lat">Lat</string>
+    <!--Longtitude text-->
+    <string name="coordinates_long">Long</string>
+    <!--Weather text-->
+    <string name="weather">Weather</string>
+    <!--Weather id text-->
+    <string name="weather_id_text">Weather Id </string>
+    <!--Main information text-->
+    <string name="main_info">Main Information</string>
+    <!--Temp text-->
+    <string name="main_temp">Temp</string>
+    <!--Pressure Text-->
+    <string name="main_pressure">Pressure</string>
+    <!--Humidity text-->
+    <string name="main_humidity">Humidity</string>
+    <!--Temp minimum text-->
+    <string name="main_temp_min">Temp. Minimum</string>
+    <!--Temp maximum text-->
+    <string name="main_temp_max">Temp. Maximum</string>
+    <!--Visibility text-->
+    <string name="visibility">Visibility</string>
+    <!--Wind text-->
+    <string name="wind">Wind</string>
+    <!--Wind speed text-->
+    <string name="wind_speed">Speed</string>
+    <!--wind deg text-->
+    <string name="wind_deg">Deg</string>
+    <!--country country text-->
+    <string name="country">Country</string>
+    <!--Name text-->
+    <string name="name">Name: </string>
+    <!--Clouds Text-->
+    <string name="clouds">Clouds</string>
+    <!--Base text-->
+    <string name="base">Base</string>
+</resources>
+
