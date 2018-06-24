@@ -7,7 +7,6 @@
     >
 
     <TextView
-
         android:id="@+id/textView_Main_Temp_Max_Text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -210,7 +209,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:text="GB"
+        android:text=""
         app:layout_constraintStart_toEndOf="@+id/textView_Country_Text"
         app:layout_constraintTop_toTopOf="@+id/textView_Country_Text" />
 

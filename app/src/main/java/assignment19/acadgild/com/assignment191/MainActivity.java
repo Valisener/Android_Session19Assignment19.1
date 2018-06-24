@@ -13,8 +13,6 @@ import assignment19.acadgild.com.assignment191.adapter.WeatherAdapter;
 import assignment19.acadgild.com.assignment191.models.WeatherModel;
 
 public class MainActivity extends AppCompatActivity implements ResponseHandlerInterface{
-    //initialize a weather adapter
-    private WeatherAdapter weatherAdapter;
     //initialize a recycler view
     RecyclerView weatherRecyclerView;
 
@@ -43,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements ResponseHandlerIn
         //add the weather model to the array list
         weatherArrayList.add(weatherModel);
         //create new adapter with an array list
-        weatherAdapter = new WeatherAdapter(weatherArrayList);
+        WeatherAdapter weatherAdapter = new WeatherAdapter(weatherArrayList);
         //Create a linearlayout manager with it being vertical
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(MainActivity.this,LinearLayoutManager.VERTICAL,false);
         //Set the layout manager
